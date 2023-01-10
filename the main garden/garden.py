@@ -17,9 +17,10 @@ for sentence in gardenpath_sentences:
     print("Entities:", [(ent.text, ent.label_) for ent in doc.ents])
     print()
 
+    #Jill - This entity is labeled as a "PERSON" by spaCy. 
+    # A person is a real-world individual, so it makes sense that Jill would be labeled as a "PERSON" entity,
+    # since it likely refers to a specific individual with that name.
 
-# Two unusual entities that spaCy identified were "old man" and "wound" in the
-# first and fifth sentences, respectively. I did not expect spaCy to recognize
-# these as entities because they are not proper nouns or named entities.
-# However, spaCy was able to identify them as entities by using its contextual
-# understanding of language and its knowledge of common nouns and verb phrases.
+    #There is no other entities returned in the code you provided.
+    # spaCy identified entities in the sentences, but it didn't find any, 
+    # since the sentences are ambiguous
